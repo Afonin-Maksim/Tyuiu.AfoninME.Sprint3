@@ -6,21 +6,15 @@ namespace Tyuiu.AfoninME.Sprint3.Task6.V13.Lib
     {
         public int GetSumTheDivisors(int startValue, int stopValue)
         {
-            int x, sum = 0;
-            for (x = startValue; x <= stopValue; x++)
+            int result = 0;
+            for (int i = startValue; i <= stopValue; i++)
             {
-                for (int d = 1; d <= x; d++)
+                for (int j = 9; j <= i; j++)
                 {
-                    if (x % d == 0)
-                    {
-                        if (d > 8)
-                        {
-                            sum += d;
-                        }
-                    }
+                    if (i % j == 0) { result += j; }
                 }
             }
-            return sum;
+            return result;
         }
     }
 }

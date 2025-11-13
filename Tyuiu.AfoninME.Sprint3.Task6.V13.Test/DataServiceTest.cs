@@ -2,22 +2,18 @@
 
 namespace Tyuiu.AfoninME.Sprint3.Task6.V13.Test
 {
-    public class Tests
+    [TestClass]
+    public class DataServiceTest
     {
-        [SetUp]
-        public void Setup()
-        {
-        }
-
-        [Test]
-        public void Test1()
+        [TestMethod]
+        public void ValidGetSumTheDivisors()
         {
             DataService ds = new DataService();
 
-            int startValue = 8, stopValue = 17;
-            int res = ds.GetSumTheDivisors(startValue, stopValue);
+            int start = 8;
+            int end = 17;
 
-            Assert.AreEqual(117, res);
+            Assert.AreEqual(117, ds.GetSumTheDivisors(start, end));
         }
     }
 }
