@@ -23,6 +23,7 @@ namespace Tyuiu.AfoninME.Sprint3.Task7.V4.Lib
                     double fx = (2 * x + 6) / denominator - 3;
                     result[index] = Math.Round(fx, 2);
                 }
+
                 index++;
             }
 

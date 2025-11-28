@@ -1,4 +1,5 @@
 ﻿using Tyuiu.AfoninME.Sprint3.Task7.V4.Lib;
+
 namespace Tyuiu.AfoninME.Sprint3.Task7.V4
 {
     internal class Program
@@ -19,9 +20,8 @@ namespace Tyuiu.AfoninME.Sprint3.Task7.V4
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Написать программу, которая выводит таблицу значений функции:           *");
             Console.WriteLine("* F(x) = (2x + 6) / (cos(x) + x) - 3                                      *");
-            Console.WriteLine("* на диапазоне [-5;5] с шагом 1.                                          *");
-            Console.WriteLine("* При делении на ноль вернуть значение 0.                                 *");
-            Console.WriteLine("* Результаты округлить до двух знаков и внести в массив.                  *");
+            Console.WriteLine("* при x ∈ [-5;5] с шагом 1. При делении на ноль вернуть 0.               *");
+            Console.WriteLine("* Значения округлить до двух знаков и занести в массив.                   *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
